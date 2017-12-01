@@ -2105,9 +2105,9 @@ def leader(iPlayer):
 		if iGameTurn >= getTurnForYear(1650): return iWilliam
 			
 	elif iPlayer == iPoland:
-		if iEra >= iGlobal: return iWalesa
-		
 		if isFascist(iPlayer) or isCommunist(iPlayer): return iPilsudski
+
+		if iEra >= iGlobal: return iWalesa
 	
 		if iEra >= iRenaissance: return iSobieski
 		
